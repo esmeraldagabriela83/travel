@@ -1,4 +1,10 @@
 import React from "react";
+
+
+import Bucuresti1 from "../js/Bucuresti1.js";
+import Bucuresti2 from "../js/Bucuresti2.js";
+
+
 //import '../App.css';
 
 
@@ -16,7 +22,11 @@ return(<>
   </article>
 
 
-  <h1>bucuresti page</h1>
+  <Bucuresti1  propColor={"yellowgreen"} propNr={53} propText={"Bucuresti1"}/>
+
+  <Bucuresti2  propColor={"gold"} propNr={95} propText={"Bucuresti2"}/>
+
+
 
 
   </>);

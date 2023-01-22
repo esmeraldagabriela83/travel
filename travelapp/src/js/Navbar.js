@@ -10,7 +10,7 @@ console.log("props from Navbar are : " , propColor , propNr , propText);
 
 return(
 
-<nav className="navbar navbar-expand-lg bg-primary navbar-dark py-3 fixed-top">
+<nav className="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top mb-5">
 
 <div className="container">
 

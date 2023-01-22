@@ -1,4 +1,7 @@
 import React from "react";
+
+import ContactDetails from "../js/ContactDetails.js";
+import ContactForm from "../js/ContactForm.js";
 //import '../App.css';
 
 
@@ -11,12 +14,24 @@ function Contact(props){
 
 return(<>
 
-  <article style={{border:`1px solid ${propColor}` , padding:'0.5em' , margin:'1em', color:propColor}}>
+  {/* <article style={{border:`1px solid ${propColor}` , padding:'0.5em' , margin:'1em', color:propColor}}>
   <h1 style={{border:`1px solid ${propColor}` , padding:'0.5em' , margin:'1em', color:propColor}}>function component is : {propText}</h1>
-  </article>
+  </article> */}
 
 
-  <h1>contact page</h1>
+  <div className="container">
+  <div className="row align-items-start justify-content-between g-3">
+
+    <div className="col-md">
+     <ContactDetails  propColor={"pink"} propNr={678} propText={"ContactDetails"}/>
+    </div>
+
+    <div className="col-md">
+    <ContactForm  propColor={"yellow"} propNr={658} propText={"ContactForm"}/>
+    </div>
+    
+  </div>
+</div>
 
 
   </>);
