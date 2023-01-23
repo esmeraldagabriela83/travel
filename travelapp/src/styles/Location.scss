@@ -1,0 +1,24 @@
+#home_location{
+
+
+h2{
+    color:$blackcolor;
+    font-weight: bold;
+    letter-spacing: 0.15em;
+    font-family: $fontTitle;
+}
+
+h2:hover{
+    color:$blackcolorHover;
+    transition: 1s;
+}
+
+
+
+    p{
+        color:$textGeneralColor;
+        font-family: $fontBody;  
+    }
+
+
+}

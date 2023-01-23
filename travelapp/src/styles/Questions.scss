@@ -1,0 +1,36 @@
+#questions{
+
+/*---------------------------------------------------------*/
+
+h2{
+    font-weight: bold;
+    letter-spacing: 0.15em;
+    font-family: $fontTitle;  
+    color:$blackcolor;
+}
+
+h2:hover{
+    color:$blackcolorHover;
+    transition: 1s;
+}
+
+/*-------------------------------------------------------*/
+
+
+
+.accordion-item{
+
+    .accordion-body{
+        color:$textGeneralColor;
+        font-family: $fontBody;
+    }
+
+img{
+    @include imgStyle();
+}
+
+}
+
+/*---------------------------------------------------------*/
+
+}

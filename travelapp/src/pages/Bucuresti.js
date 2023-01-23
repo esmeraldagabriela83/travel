@@ -17,9 +17,9 @@ function Bucuresti(props){
 
 return(<>
 
-  <article style={{border:`1px solid ${propColor}` , padding:'0.5em' , margin:'1em', color:propColor}}>
+  {/* <article style={{border:`1px solid ${propColor}` , padding:'0.5em' , margin:'1em', color:propColor}}>
   <h1 style={{border:`1px solid ${propColor}` , padding:'0.5em' , margin:'1em', color:propColor}}>function component is : {propText}</h1>
-  </article>
+  </article> */}
 
 
   <Bucuresti1  propColor={"yellowgreen"} propNr={53} propText={"Bucuresti1"}/>

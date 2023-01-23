@@ -21,7 +21,7 @@ return(<>
   </article> */}
 
 
-<article>
+<article id="contact_details">
 
 <div className="container">
 
@@ -32,21 +32,14 @@ return(<>
 
 <ul className="list-group list-group-flush lead">
               <li className="list-group-item">
-                <span className="fw-bold">Main Location:</span> 50 Main st Boston MA
+                <span className="fw-bold">Main Location:</span> Pantelimon Bucuresti
               </li>
               <li className="list-group-item">
-                <span className="fw-bold">Enrollment Phone:</span> (555) 555-5555
+                <span className="fw-bold">Phone:</span> 0722 66 96 10
               </li>
+              
               <li className="list-group-item">
-                <span className="fw-bold">Student Phone:</span> (333) 333-3333
-              </li>
-              <li className="list-group-item">
-                <span className="fw-bold">Enrollment Email:</span> (555)
-                enroll@frontendbc.test
-              </li>
-              <li className="list-group-item">
-                <span className="fw-bold">Student Email:</span>
-                student@frontendbc.test
+                <span className="fw-bold">Email:</span> esmeraldagabriela83@yahoo.com
               </li>
             </ul>
      </div>

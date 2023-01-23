@@ -1,5 +1,5 @@
 import React from "react";
-
+import {BrowserRouter as Router , Routes , Route , Link} from "react-router-dom";
 
 
 function Navbar(props){
@@ -14,7 +14,12 @@ return(
 
 <div className="container">
 
+
+
+
 <a href="#" className="navbar-brand"><strong>Travel</strong> Project</a>
+
+
 
 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
 <span className="navbar-toggler-icon"></span>

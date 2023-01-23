@@ -1,15 +1,14 @@
 import React from "react";
 import {BrowserRouter as Router , Routes , Route , Link} from "react-router-dom";
 
-
-
-
+import "./styles/main.scss";
 
 //npm install react-router-dom + Enter in terminal
 
 
 //import logo from './logo.svg';
 //import './App.css';
+
 
 import Navbar from "./js/Navbar.js";
 import Showcase from "./js/Showcase.js";
@@ -24,6 +23,8 @@ import Contact from "./pages/Contact.js";
 import Transport from "./pages/Transport.js";
 import Bucuresti from "./pages/Bucuresti.js";
 
+
+
 function App() {
   return (
     <section className="App">
@@ -34,12 +35,38 @@ function App() {
 
      <Router>
       
-      <ul className="linkPages">
-      <li><Link to="/">Location</Link></li>
-      <li><Link to="/contact">Contact</Link></li>
-      <li><Link to="/transport">Transport</Link></li>
-      <li><Link to="/bucuresti">Visit Bucharest</Link></li>
-      </ul>
+<div className="container" id="links_to_page">
+
+     <div className="row text-center g-3 linkPages mt-1">
+
+        <div className="col-md "> 
+          <div className="card bg-info text-light my-3 my-md-5 py-3">
+          <Link to="/">Location</Link>
+          </div>
+        </div>
+
+        <div className="col-md">
+          <div className="card bg-info text-light my-3 my-md-5 py-3">
+          <Link to="/contact">Contact</Link>
+          </div>
+        </div>
+
+        <div className="col-md">
+          <div className="card bg-info text-light my-3 my-md-5 py-3">
+          <Link to="/transport">Transport</Link>
+          </div>
+        </div>
+
+        <div className="col-md">
+          <div className="card bg-info text-light my-3 my-md-5 py-3">
+          <Link to="/bucuresti">Visit Bucharest</Link>
+          </div>
+        </div>
+
+     </div>
+
+ </div>
+     
       
             <Routes>
       
@@ -51,7 +78,7 @@ function App() {
       
             </Routes>
       
-          </Router>
+      </Router>
 
 
   

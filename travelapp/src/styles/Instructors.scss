@@ -1,0 +1,60 @@
+
+
+#instructors{
+
+/*--------------------------------------------*/    
+
+h2{
+    color:$whitecolortitle;
+    font-weight: bold;
+    letter-spacing: 0.15em;
+    font-family: $fontTitle;
+}
+h2:hover{
+    color:$whitecolortitleHover;
+    transition: 1s;
+}
+
+
+p{
+    color:$whitecolortext;
+    font-family: $fontBody;  
+}
+
+p:hover{
+    color:$whitecolortextHover;
+    transition: 1s;  
+}
+
+/*--------------------------------------------*/
+
+
+.card{
+    box-shadow: $generalShadow;
+
+    img{
+        @include imgStyle();
+    }
+
+    h3{
+        color:$blackcolor; 
+        letter-spacing: 0.15em;
+        font-family: $fontTitle;
+    }
+
+    h3:hover{
+        color:$blackcolorHover; 
+        transition: 1s;
+    }
+
+    /*--------------------*/
+
+    p.card-text{
+        color:$textGeneralColor;
+    }
+
+}
+
+/*--------------------------------------------*/
+
+}

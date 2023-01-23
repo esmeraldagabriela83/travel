@@ -1,0 +1,67 @@
+
+// @import "../modules/Variables.scss";
+// @import "../modules/mixin.scss";
+
+
+#transport_article{
+    /*-------------------------------------------------*/
+
+    .card{
+        box-shadow: $generalShadow;
+
+        .transportSVG{
+            background-color: $blackcolor;
+            padding-top: 0.5em;
+            padding-bottom: 0.5em;
+            color:$whitecolortitle;
+            border-radius: 0.3em;
+            box-shadow: $generalShadowSec;
+            
+            svg{
+                height: 1em;
+                width: 1em;
+            }
+        }
+            
+        .transportSVG:hover{
+            background-color: $blackcolorHover;
+            color:$svgHover;
+            transition: 1s;
+        }
+
+        /*-----------------------------------------------*/
+
+        .card-title{
+            color:$whitecolortitle;
+            font-weight: bold;
+            letter-spacing: 0.15em;
+            font-family: $fontTitle;
+        }
+
+        .card-title:hover{
+            color:$whitecolortitleHover;
+            transition: 1s;
+        }
+
+        /*-------------------------------------*/
+
+        .card-body{
+            color:$whitecolortext;
+            font-family: $fontBody;
+
+            a.btn{
+                @include abtnlike($whitecolortitle , 1.5rem);
+            }
+        }
+
+        .card-body:hover{
+            color:$whitecolortextHover;
+            transition: 1s;
+        }
+        
+    }
+
+    /*-------------------------------------------------*/
+}
+
+

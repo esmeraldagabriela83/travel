@@ -1,0 +1,21 @@
+#showcase_article{
+
+h1 , span{
+    font-weight: bold;
+    letter-spacing: 0.15em;
+    font-family: $fontTitle;
+}
+
+/*-------------------------------------*/
+
+p{
+    font-family: $fontBody;  
+}
+
+/*-----------------------------*/
+
+button.btn{
+    @include abtnlike($whitecolortitle , 1.5rem);  
+}
+
+}

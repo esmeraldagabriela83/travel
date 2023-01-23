@@ -1,0 +1,13 @@
+
+
+@mixin abtnlike($colorVariable , $fontVariable){
+    box-shadow: $generalShadowSec;
+    font-family: $fontTitle;
+    color: $colorVariable;
+    font-size: $fontVariable;
+}
+
+@mixin imgStyle(){
+    box-shadow: $generalShadowSec;
+    border-radius: 0.3em;
+}

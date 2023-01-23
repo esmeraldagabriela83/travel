@@ -9,7 +9,7 @@ function Showcase(props){
   
   return(
   <>
-    <article className="bg-dark text-light p-5 pb-lg-0 pt-lg-5 text-center text-sm-start">
+    <article className="bg-dark text-light p-5 pb-lg-0 pt-lg-5 text-center text-sm-start" id="showcase_article">
   <div className="container">
   
   <div className="d-sm-flex align-items-center justify-content-between mt-3">

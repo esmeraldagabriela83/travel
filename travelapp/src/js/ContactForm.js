@@ -90,6 +90,8 @@ return(<>
   <h1 style={{border:`1px solid ${propColor}` , padding:'0.5em' , margin:'1em', color:propColor}}>function component is : {propText}</h1>
   </article> */}
 
+<article id="contact_form"> 
+
 <h2 className="mb-4">Fill out this form and show your data</h2>
 
 
@@ -166,20 +168,22 @@ return(<>
       </label><br></br>
 
 
-      <label htmlFor="message">Message<br></br>
-       <textarea name="message" id="message" placeholder="Your message" onChange={handleChangeForm}></textarea>
+      <label htmlFor="message" className="col-form-label">Message<br></br>
+       <textarea name="message" id="message" placeholder="Your message"  className="form-control"  required="required"  onChange={handleChangeForm}></textarea>
        </label><br></br>
 
 
 
 
-  <button type="submit" className="btn btn-primary">Submit</button>
+  <button type="submit" className="btn btn-primary btn-lg my-5" id="submit_form">Submit</button>
 
 
 
 
 
 </form>
+
+</article> 
 
 
 {users.map( (user , index) =>{

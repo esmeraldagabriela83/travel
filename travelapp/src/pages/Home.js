@@ -3,7 +3,7 @@ import React from "react";
 
 
 //import '../App.css';
-//https://www.youtube.com/watch?v=ueaP7ShYE8I
+
 
 
 function Home(props){
@@ -15,6 +15,8 @@ function Home(props){
 
 return(<>
 
+<article id="home_location">
+
 <h2 className="container">Romania-location</h2>
 
 <p className="lead container">
@@ -23,23 +25,7 @@ It borders Bulgaria to the south, Ukraine to the north, Hungary to the west, Ser
 </p>
 
 
-
-  <div className="container">
-
-  <div className="row">
- 
-    <div className="col">
-    <a href="https://www.pexels.com/ro-ro/fotografie/rural-rustic-peisaj-rural-la-ara-2638503/" target="_blank">
-                    <img src="./images/flag.jpg" alt="countryside1-img" className="img-fluid mt-3 mb-3"/>
-    </a>
-    </div>
-    
-  </div>
-  
-
-
-
- </div>    
+  </article>
 
   </>);
 

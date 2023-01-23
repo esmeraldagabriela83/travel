@@ -1,0 +1,32 @@
+#contact_details , #contact_form{
+    h2{
+        font-weight: bold;
+        letter-spacing: 0.15em;
+        font-family: $fontTitle;
+        color:$blackcolor; 
+    }
+
+    h2:hover{
+      color: $blackcolorHover;
+      transition: 1s;
+    }
+
+   
+}
+
+#contact_details{
+    ul li{
+        color:$generalFont;
+        span{
+            color:$blackcolor;
+        }
+    }
+}
+
+
+
+#contact_form{
+    button#submit_form{
+        @include abtnlike($whitecolortitle , 1.5rem);
+    }
+}

@@ -1,7 +1,8 @@
 import React from "react";
 
-import ContactDetails from "../js/ContactDetails.js";
 import ContactForm from "../js/ContactForm.js";
+import ContactDetails from "../js/ContactDetails.js";
+
 //import '../App.css';
 
 
@@ -22,12 +23,12 @@ return(<>
   <div className="container">
   <div className="row align-items-start justify-content-between g-3">
 
-    <div className="col-md">
-     <ContactDetails  propColor={"pink"} propNr={678} propText={"ContactDetails"}/>
+  <div className="col-md">
+    <ContactForm  propColor={"yellow"} propNr={658} propText={"ContactForm"}/>
     </div>
 
     <div className="col-md">
-    <ContactForm  propColor={"yellow"} propNr={658} propText={"ContactForm"}/>
+     <ContactDetails  propColor={"pink"} propNr={678} propText={"ContactDetails"}/>
     </div>
     
   </div>

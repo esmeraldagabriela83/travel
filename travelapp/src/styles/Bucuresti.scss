@@ -1,0 +1,41 @@
+#bucuresti1 , #bucuresti2{
+
+/*----------------------------------------*/
+
+h2{
+    color:$whitecolortitle;
+    font-weight: bold;
+    letter-spacing: 0.15em;
+    font-family: $fontTitle;
+}
+
+h2:hover{
+    color:$whitecolortitleHover;
+    transition: 1s;
+}
+
+/*----------------------------------------*/
+
+
+p{
+    color:$whitecolortext;
+    font-family: $fontBody;
+}
+
+p:hover{
+    color:$whitecolortextHover;
+    transition: 1s; 
+}
+
+
+/*----------------------------------------*/
+
+img{
+    @include imgStyle();
+}
+
+a.btn{
+    @include abtnlike($whitecolortitle , 1.5rem);
+}
+
+}
