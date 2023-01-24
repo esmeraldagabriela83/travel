@@ -1,0 +1,39 @@
+#seaside_article{
+
+
+    h2{
+        color:$blackcolor;
+        font-weight: bold;
+        letter-spacing: 0.15em;
+        font-family: $fontTitle;
+        padding-top: 1.5em;
+        padding-bottom: 0.5em;
+    }
+    
+    h2:hover{
+        
+        color:$blackcolorHover;
+        transition: 1s;
+    }
+    
+    /*----------------------------------------*/
+    
+    img{
+        @include imgStyle();
+    }
+    
+    /*----------------------------------------*/
+    
+    p{
+        color:$textGeneralColor;
+        font-family: $fontBody;
+        padding-top: 1.5em;
+        padding-bottom: 1.5em;
+    }
+    
+    a.btn{
+        @include abtnlike($whitecolortitle , 1.5rem);
+        margin-bottom: 1.5em;
+    }
+    
+    }

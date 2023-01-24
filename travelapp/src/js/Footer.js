@@ -17,17 +17,12 @@ function Footer(props){
   
       <div className="container">
         
-      <p className="lead">Copyright &copy; 2023 Frontend React Bootstrap Sass Portfolio App</p>
-      <a href="#" className="position-absolute bottom-0 end-0 p-5"><i className="bi bi-arrow-up-circle h1"></i></a>
-
-      <ul className="linksMedia">
-
-<li><a href="https://twitter.com/" target="_blank"><i className="bi bi-twitter text-black-50 mx-1"></i></a></li>
-<li><a href="https://facebook.com/" target="_blank"><i className="bi bi-facebook text-black-50 mx-1"></i></a></li>
-<li><a href="https://linkedin.com/" target="_blank"><i className="bi bi-linkedin text-black-50 mx-1"></i></a></li>
-<li><a href="https://instagram.com/" target="_blank"><i className="bi bi-instagram text-black-50 mx-1"></i></a></li>
-
-</ul>
+      <p className="lead text-center">Copyright &copy; 2023 Frontend React Bootstrap Sass Portfolio App</p>
+      <a href="#navbar" className="position-absolute bottom-0 end-0 p-5">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-arrow-up-square-fill" viewBox="0 0 16 16">
+  <path d="M2 16a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2zm6.5-4.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 1 0z"/>
+</svg>
+      </a>
 
       </div>
   

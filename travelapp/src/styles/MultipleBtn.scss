@@ -1,0 +1,57 @@
+#multiple_btnCountries_id{
+
+
+    div.card{
+        margin-top:1.5em;
+        margin-bottom:1.5em;
+        
+        /*---------------------------*/
+        
+        img{
+            @include imgStyle();
+        }
+        
+        /*-----------------------------*/
+        
+        h5{
+            font-weight: bold;
+            letter-spacing: 0.15em;
+            font-family: $fontTitle;  
+            color:$blackcolor;
+        }
+        
+        h5:hover{
+            color:$blackcolorHover;
+            transition: 1s;
+        }
+        
+        
+        
+        /*-----------------------------*/
+        
+        
+        p{
+            color:$textGeneralColor;
+            font-family: $fontBody;  
+        }
+        
+        
+        /*--------------*/
+        a.btn{
+            @include abtnlike($whitecolortitle , 1.5rem);
+        }
+        
+        }
+
+        button.btn{
+            @include abtnlike($whitecolortitle , 1.5rem);
+            margin-right: 1em;
+            border:3px solid MistyRose;
+        }
+    
+        button.btn:hover{
+            border:3px solid WhiteSmoke;
+        }
+
+
+}

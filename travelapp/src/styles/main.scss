@@ -6,12 +6,39 @@
 
 
 
-
+@import "./Navbar.scss";
 @import "./Showcase.scss";
-@import "./appStyle.scss";
+
 @import "./Location.scss";
 @import "./Contact.scss";
 @import "./Transport.scss";
 @import "./Bucuresti.scss";
 @import "./Questions.scss";
 @import "./Instructors.scss";
+@import "./Mountain.scss";
+@import "./Seaside.scss";
+
+@import "./CountryComponent.scss";
+@import "./AppConditionalRenderingBooleanContent.scss";
+@import "./AppShowContent.scss";
+@import "./MultipleBtn.scss";
+
+
+#foreignCountryToVisit_title{
+    font-weight: bold;
+    letter-spacing: 0.15em;
+    font-family: $fontTitle;  
+    color:$blackcolor;
+}
+
+
+.centerContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#foreignCountryToVisit_title:hover{
+    color:$blackcolorHover;
+    transition: 1s;
+}

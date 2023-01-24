@@ -1,0 +1,68 @@
+nav.navbar{
+    // border:3px solid red;
+
+    p#logo {
+
+        font-size: 1.5rem;
+    
+      strong{
+        color:$mdBackgroundColor;
+        font-family: $fontTitle;
+        color:#ffc107;
+      }
+    
+    
+    }
+
+    /*-----------------------------*/
+                        
+ul.navbar-nav li.nav-item p.page_link{
+    color:$mdBackgroundColor;
+    padding-right:1em;
+    font-family: $fontBody;
+}
+
+ul.navbar-nav li.nav-item p.page_link:hover{
+    color:$svgHover;
+}
+
+
+
+
+ /*----------------------------------------*/
+
+
+
+
+    li.dropdown{
+        margin-top: -0.5em;
+    }
+
+
+
+ /*----------------------------------------*/
+
+
+ul.navbar-nav li.dropdown a{
+    color:$mdBackgroundColor;
+    font-family: $fontBody;
+}
+
+ul.navbar-nav li.dropdown a:hover{
+    color:$svgHover;
+}
+
+/*----------------------------------------------*/
+
+ul.dropdown-menu li p.page_link_dropdown{
+    font-family: $fontBody;
+    color:$blackcolor;
+}
+
+ul.dropdown-menu li p.page_link_dropdown:hover{
+    
+    color:$blackcolorHover;
+    
+}
+
+}
