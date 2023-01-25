@@ -38,7 +38,7 @@ function Budget(props){
   const [totalBudget , setTotalBudget]=useState(750);
 
 //modify total budget background color
-  let defaultTitleColor="floralWhite";
+//   let defaultTitleColor="floralWhite";
 
   const randomColor = Math.floor(Math.random()*16777215).toString(16);
 
@@ -334,7 +334,7 @@ const handleAddFormSubmitActivity=(event) =>{
             <input type="text" name="name" id="name" required="required" placeholder="write an activity" onChange={handleAddFormChangeActivity} className="form-control" /><br></br>
             <input type="number" name="price" id="price" required="required" placeholder="write it`s price" onChange={handleAddFormChangeActivity} className="form-control" /><br></br>
 
-            <button className="btn btn-primary btn-lg my-1"  type="submit">Add activity</button>
+            <button className="btn btn-primary btn-lg my-1"  type="submit">Add an activity</button>
             </form>
 
    
