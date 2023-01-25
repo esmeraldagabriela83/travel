@@ -10,9 +10,12 @@ function AppShowContent(props){
    console.log(`props from f c : ${propText} are : `, propColor , propNr , propText);
 
 //---------------------
-
+//showContent bulgaria
 const [showContent , setShowContent] = useState(false) ;
 //---------------------
+
+//---------------------
+
 
 return(<>
 
@@ -31,10 +34,16 @@ return(<>
         style={{border:`3px solid ${showContent ? "WhiteSmoke" : "MistyRose"}` ,
                 color:showContent ? "WhiteSmoke" : "MistyRose"}}>
             Bulgaria
-</button>
+</button><br></br>
+
+
+
 
 
 {showContent && <CountryCardContent   propColor={"tomato"} propNr={700} propText={"CountryCardContent"} />}
+
+
+
 
 </div>        
 

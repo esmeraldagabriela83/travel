@@ -44,7 +44,7 @@
         }
 
         button.btn{
-            @include abtnlike($whitecolortitle , 1.5rem);
+            @include abtnlike($svgHover , 1.5rem);
             margin-right: 1em;
             border:3px solid MistyRose;
         }

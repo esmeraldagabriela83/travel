@@ -20,7 +20,7 @@ function CountryComponent(props){
 
 <div className="card" style={{width: "100%" , backgroundColor:`${propColorCountry}`}}>
   <a href={propLinkImgCountry} target="_blank">
-    <img src={propImgCountry} class="card-img-top" alt="foregn_country"/>
+    <img src={propImgCountry} className="card-img-top" alt="foregn_country"/>
     </a>
   <div className="card-body">
     <h5 className="card-title">{propNameCountry}</h5>

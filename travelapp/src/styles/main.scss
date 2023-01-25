@@ -18,9 +18,11 @@
 @import "./Mountain.scss";
 @import "./Seaside.scss";
 
+
+@import "./Budget.scss";
+@import "./AppShowContent.scss";
 @import "./CountryComponent.scss";
 @import "./AppConditionalRenderingBooleanContent.scss";
-@import "./AppShowContent.scss";
 @import "./MultipleBtn.scss";
 
 
@@ -36,6 +38,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 #foreignCountryToVisit_title:hover{

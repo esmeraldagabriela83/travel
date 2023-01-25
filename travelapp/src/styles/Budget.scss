@@ -1,0 +1,89 @@
+#budget_id{
+
+.card{
+
+    box-shadow: $generalShadow;
+    margin-bottom:1.5em;
+    margin-top:1.5em;
+
+    h2{
+        color:$whitecolortitle;
+        font-weight: bold;
+        letter-spacing: 0.15em;
+        font-family: $fontTitle;
+    }
+
+    h2:hover{
+        color:$whitecolortitleHover;
+        transition: 1s;
+    }
+
+
+
+
+    /*--------------------------------------------*/
+
+
+    .transportSVG{
+        background-color: $blackcolor;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        color:$whitecolortitle;
+        border-radius: 0.3em;
+        box-shadow: $generalShadowSec;
+        
+        svg{
+            height: 1em;
+            width: 1em;
+        }
+    }
+        
+    .transportSVG:hover{
+        background-color: $blackcolorHover;
+        color:$svgHover;
+        transition: 1s;
+    }
+
+
+}
+
+
+form table{
+    width:100%;
+
+    tbody tr{
+        border:1px solid $blackcolor; 
+    }
+
+    thead tr th, tbody tr td{
+        border:1px solid $blackcolor;
+     font-size: 1rem;
+        color:$textGeneralColor;
+        font-family: $fontBody;
+    }
+
+}
+
+.budget{
+    h2{
+        color:$blackcolor;
+        font-weight: bold;
+        letter-spacing: 0.15em;
+        font-family: $fontTitle;
+        margin-top:1.5em;
+        margin-bottom:1.5em;
+    }
+
+    h2:hover{
+        color:$blackcolorHover;
+        transition: 1s;
+    }
+
+
+    button{
+        @include abtnlike($whitecolortitle , 1rem);
+        margin:0.5em;
+    }
+}
+
+}

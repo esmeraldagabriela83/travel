@@ -7,9 +7,8 @@ import Contact from "../pages/Contact.js";
 import Transport from "../pages/Transport.js";
 import Bucuresti from "../pages/Bucuresti.js";
 
-import Questions from "../js/Questions.js";
-import Instructors from "../js/Instructors.js";
-
+import Questions from "../pages/Questions.js";
+import Instructors from "../pages/Instructors.js";
 import Mountain from "../pages/Mountain.js";
 import Seaside from "../pages/Seaside.js";
 
